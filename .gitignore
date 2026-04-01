@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Except this file
+!.gitignore
+
+# Except .cc files directly in scratch (not subfolders)
+!scratch/
+!scratch/*.cc
+
+# Except .md files in root
+!*.md
