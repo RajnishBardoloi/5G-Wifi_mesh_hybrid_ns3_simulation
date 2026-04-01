@@ -8,5 +8,11 @@
 !scratch/
 !scratch/*.cc
 
+# Except the 5g-mesh-bandit simulation subfolder
+!scratch/5g-mesh-bandit/
+!scratch/5g-mesh-bandit/*.cc
+!scratch/5g-mesh-bandit/*.h
+!scratch/5g-mesh-bandit/*.md
+
 # Except .md files in root
 !*.md
